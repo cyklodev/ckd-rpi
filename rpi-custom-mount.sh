@@ -14,6 +14,16 @@ TARGET_MOUNT_FOLDER="/mnt/rpi-custom"
 
 USERID=`id -u` 
 
+
+if [[ ! -e /etc/redhat-release ]]
+then
+        echo "Only for Centos/RedHat !!! ";
+        exit 100;
+else
+        echo "Centos/RedHat detected  ... continue"
+fi
+
+
 if [[ $USERID -ne 0 ]]
 then
 	echo "Not root !!! ";
