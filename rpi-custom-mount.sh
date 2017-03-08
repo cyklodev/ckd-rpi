@@ -4,7 +4,7 @@
 #	Global vars
 ##########################################
 
-RPI_IMG_PATH="/home/mako/Downloads"
+RPI_IMG_PATH=""
 RPI_IMG="$RPI_IMG_PATH/*-raspbian-jessie-lite.img"
 TARGET_MOUNT_FOLDER="/mnt/rpi-custom"
 
