@@ -1,0 +1,4 @@
+#Raspberry Pi vault
+image:
+    -rpi-custom-mount:
+	-desc: mount Raspbian local image to customize it 
